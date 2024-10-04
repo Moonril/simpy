@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+  }
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 100px;
+    color: aliceblue;
+}
+
+body:active{
+    /* animation: psychedelic 24s linear 0.5s infinite; */
+    /* animation: 24s linear 0s infinite psychedelic; */
+    background-color: blue;  
+/*     color: blue; */
+}
+
+.small {
+    font-size: 16px;
+}
+
+.no {
+    color: black;
+}
+
+
+/* @keyframes psychedelic {
+    from {
+        filter: hue-rotate(0deg);
+      }
+      to {
+        filter: hue-rotate(360deg);
+      }
+} */
